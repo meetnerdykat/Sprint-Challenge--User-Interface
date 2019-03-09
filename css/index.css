@@ -169,7 +169,7 @@ header nav a {
 .navigation {
   display: flex;
   flex-wrap: row wrap;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-evenly;
 }
 
@@ -284,4 +284,51 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* About Page CSS */
+.row {
+  display: flex;
+  margin: 30px 0px;
+}
+
+.infoBox {
+  border-bottom: 1px dashed black;
+  padding: 10px 10px 20px 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.infoBox img {
+  margin-bottom: 20px;
+}
+
+.infoBox p {
+  margin-bottom: 20px;
+}
+
+.infoBox button {
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1em;
+  background: white;
+  cursor: pointer;
+}
+
+.infoBox button:hover {
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.fullWidthArticle1 {
+  padding: 10px 0px 20px 0px;
+  border-bottom: 1px dashed black;
+}
+
+.fullWidthArticle2 {
+  padding: 10px 0px 30px 0px;
 }
